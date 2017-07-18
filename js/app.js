@@ -208,5 +208,4 @@
     Util.removeClass($cover, 'show');
   }
 
-
 }());
