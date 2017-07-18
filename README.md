@@ -1,2 +1,2 @@
-# mozhongfengchen.github.io
+# mozfc.github.io
 个人博客
