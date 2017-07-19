@@ -72,6 +72,7 @@
   
 
   <script async src="/js/myapp.js"></script>
+  <script async src="/js/bundle.js"></script>
 
   
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -148,7 +149,7 @@ var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " 
   <span id="cover" class="cover hide"></span>
   <div id="modal-dialog" class="modal-dialog hide-dialog">
     <div class="modal-header">
-      <span id="close" class="btn-close">关闭</span>
+      <span id="close" class="btn-close">Close</span>
     </div>
     <hr>
     <div class="modal-body">
@@ -230,7 +231,7 @@ var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " 
 
   
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
   function loadScript(url, callback) {
     var script = document.createElement('script')
     script.type = 'text/javascript';
@@ -255,11 +256,11 @@ var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " 
 
   window.onload = function() {
     loadScript('/js/bundle.js?235683', function() {
-      // load success
+      console.log(load success)
     });
   }
 </script>
-
+ -->
 
 </body>
 </html>

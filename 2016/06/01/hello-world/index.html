@@ -77,6 +77,7 @@
   
 
   <script async src="/js/myapp.js"></script>
+  <script async src="/js/bundle.js"></script>
 
   
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -174,7 +175,7 @@
 
 
   <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
+    <strong class="toc-title">Posts List</strong>
     <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
   </div>
 
@@ -285,7 +286,7 @@
   <span id="cover" class="cover hide"></span>
   <div id="modal-dialog" class="modal-dialog hide-dialog">
     <div class="modal-header">
-      <span id="close" class="btn-close">关闭</span>
+      <span id="close" class="btn-close">Close</span>
     </div>
     <hr>
     <div class="modal-body">
@@ -382,7 +383,7 @@
 
   
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
   function loadScript(url, callback) {
     var script = document.createElement('script')
     script.type = 'text/javascript';
@@ -407,11 +408,11 @@
 
   window.onload = function() {
     loadScript('/js/bundle.js?235683', function() {
-      // load success
+      console.log(load success)
     });
   }
 </script>
-
+ -->
 
 </body>
 </html>
