@@ -1,16 +1,4 @@
-html.page-home {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('/images/bg.jpg');
-  background-color: transparent;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-#myVideo{position: absolute;width:100%;top: -1000px;}
+// html.page-home {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url('/images/bg.jpg'); background-color: transparent; background-size: cover; background-position: center center; background-repeat: no-repeat; } #myVideo{position: absolute;width:100%;top: -1000px;}
 #pause,#play{position: absolute; bottom: 30px; left: 50%; margin-left: -26px; width: 52px;display: none;}
 #pause img,#play img{width: 100%;}
 #pause.on,#play.on{display: block;}
