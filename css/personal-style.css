@@ -2,3 +2,4 @@
 #pause,#play{position: absolute; bottom: 30px; left: 50%; margin-left: -26px; width: 52px;display: none;}
 #pause img,#play img{width: 100%;}
 #pause.on,#play.on{display: block;}
+#cnzz_stat_icon_1262954080{position: absolute; bottom: 4px; right: 10px;}
