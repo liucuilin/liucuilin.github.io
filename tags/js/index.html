@@ -72,7 +72,7 @@
   
 
   <script async src="/js/myapp.js"></script>
-  <script async src="/js/bundle.js"></script>
+  <script defer="defer" src="/js/bundle.js"></script>
 
   
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -346,7 +346,7 @@
 
   window.onload = function() {
     loadScript('/js/bundle.js?235683', function() {
-      console.log(load success)
+      console.log('load success')
     });
   }
 </script>
