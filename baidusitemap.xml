@@ -4,28 +4,8 @@
 
     
   <url>
-    <loc>https://mozfc.github.io/2017/06/18/helloWorld/</loc>
-    <lastmod>2017-07-20T17:40:10.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-06-18T15:47:44.000Z</pubTime>
-        
-        <tag>js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo教程" url="https://mozfc.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://mozfc.github.io/2017/07/20/page_1/</loc>
-    <lastmod>2017-07-20T17:26:28.000Z</lastmod>
+    <lastmod>2017-07-20T18:17:54.000Z</lastmod>
     <data>
         <display>
         <title>万事开头难</title>
@@ -37,6 +17,26 @@
            
              
               <breadCrumb title="生活感悟" url="https://mozfc.github.io/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://mozfc.github.io/2017/06/18/helloWorld/</loc>
+    <lastmod>2017-07-20T18:11:03.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-06-18T15:47:44.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo教程" url="https://mozfc.github.io/categories/Hexo%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
