@@ -6,3 +6,4 @@
 @media screen and (max-width: 767px){
 	.content.content-link .tip {margin: 20px 0 0 19px; color: #ddd; } 
 }
+.content-home .avatar img{border: 2px solid #dadada;}
