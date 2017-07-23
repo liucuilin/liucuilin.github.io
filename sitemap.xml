@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mozfc.github.io/2017/07/23/page_3/</loc>
+    
+    <lastmod>2017-07-23T11:22:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://mozfc.github.io/2017/06/18/helloWorld/</loc>
+    
+    <lastmod>2017-07-23T07:28:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://mozfc.github.io/2017/07/21/page_2/</loc>
     
     <lastmod>2017-07-22T05:02:05.000Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://mozfc.github.io/2017/07/20/page_1/</loc>
     
     <lastmod>2017-07-20T18:17:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://mozfc.github.io/2017/06/18/helloWorld/</loc>
-    
-    <lastmod>2017-07-20T18:11:03.000Z</lastmod>
     
   </url>
   

@@ -8,3 +8,5 @@
 }
 .content-home .avatar img{border: 2px solid #dadada;}
 .donation {margin-top: 50px; margin-bottom: 60px; }
+.article-content p{text-align: justify;}
+.article-content blockquote p{text-align: left; }
