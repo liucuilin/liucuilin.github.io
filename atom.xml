@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mozfc.github.io/"/>
-  <updated>2017-07-23T11:38:01.000Z</updated>
+  <updated>2017-07-23T11:42:41.000Z</updated>
   <id>https://mozfc.github.io/</id>
   
   <author>
@@ -20,9 +20,9 @@
     <link href="https://mozfc.github.io/2017/07/23/page_3/"/>
     <id>https://mozfc.github.io/2017/07/23/page_3/</id>
     <published>2017-07-23T07:02:32.000Z</published>
-    <updated>2017-07-23T11:38:01.000Z</updated>
+    <updated>2017-07-23T11:42:41.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><p>&nbsp; &nbsp; &nbsp; &nbsp;前端开发技术栈发展飞速，新技术不断横空出世，大前端的时代已经来临，目前一个前端开发者如果说只会使用HTML，CSS，JAVASCRIPT这前端三板斧的技能，并仍不思进取的进行着传统模式的开发，迟早会在和不断涌入这个领域的新人的角逐中淹没淘汰。所以开发人员要有点紧迫感，不断学习和提高自己的业务水准，了解前端开发领域的新动态，以保证在这个行业中屹立不倒，饭碗不掉。<br>&nbsp; &nbsp; &nbsp; &nbsp;目前前端领域最火热的top3技术Angular | Vue | React，开发过程中都是基于Es6语法规范进行编写的，之前的学习和开发都是围绕Es6以下版本进行的，所以最早学习Angular的时候好多东西都没理清楚，不过学完Angular1.0并在项目开发中也得到了一些实践，Angular 2.0发布后感觉自身基础知识的缺乏就没再进一步学习它。<strong>不能一口吃个胖子，没有基础知识的支撑而去学习更高端的技术简直就是浪费生命。</strong>经此经验教训，静心基础夯实，再回过头来对top3中的React进行了了解，React的开发模式一度吸引了我的好奇心，所以开始决定对React进行系统的学习，也将学习过程中的学习笔记整理出来以便后期的查阅和复习。<br>&nbsp; &nbsp; &nbsp; &nbsp;在学习React之前，我已经做好了学习它所需要的基础技术支撑。除了之前所说的三板斧以外，也掌握了Es6的基础知识、自动化构建工具Webpack的配置及使用，npm包管理器的使用，以及用nodeSever开启本地服务、Eslint代码规范检查、热加载等技术。<br>&nbsp; &nbsp; &nbsp; &nbsp;是时候解放双手，告别刀耕火种的时代了！</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>&nbsp; &nbsp; &nbsp; &nbsp;前端开发技术栈发展飞速，新技术不断横空出世，大前端的时代已经来临，目前一个前端开发者如果说只会使用HTML，CSS，JAVASCRIPT这前端三板斧的技能，并仍不思进取的进行着传统模式的开发，迟早会在和不断涌入这个领域的新人的角逐中淹没淘汰。所以开发人员要有点紧迫感，不断学习和提高自己的业务水准，了解前端开发领域的新动态，以保证在这个行业中屹立不倒，饭碗不掉。<br>&nbsp; &nbsp; &nbsp; &nbsp;目前前端领域最火热的top3技术Angular | Vue | React，开发过程中都是基于Es6语法规范进行编写的，之前的学习和开发都是围绕Es6以下版本进行的，所以最早学习Angular的时候好多东西都没理清楚，不过学完Angular1.0并在项目开发中也得到了一些实践，Angular 2.0发布后感觉自身基础知识的缺乏就没再进一步学习它。<strong>不能一口吃个胖子，没有基础知识的支撑而去学习更高端的技术简直就是浪费生命。</strong>经此经验教训，静心基础夯实，再回过头来对top3中的React进行了了解，React的开发模式一度吸引了我的好奇心，所以开始决定对React进行系统的学习，也将学习过程中的学习笔记整理出来以便后期的查阅和复习。<br>&nbsp; &nbsp; &nbsp; &nbsp;在学习React之前，我已经做好了学习它所需要的基础技术支撑。除了之前所说的三板斧以外，也掌握了Es6的基础知识、自动化构建工具Webpack的配置及使用，npm包管理器的使用，以及用nodeSever开启本地服务、Eslint代码规范检查、热加载等技术。<br>&nbsp; &nbsp; &nbsp; &nbsp;是时候解放双手，告别刀耕火种的时代了！</p>
 <hr>
 <h2 id="开启新征程"><a href="#开启新征程" class="headerlink" title="开启新征程"></a>开启新征程</h2><p>&nbsp; &nbsp; &nbsp; &nbsp;React 是一个用于构建用户界面的JS库。也就是说React是 MVC开发模式当中视图层，是一个构建视图的js库。</p>
 <p><code>创建虚拟Dom对象</code></p>
@@ -31,7 +31,7 @@
 </blockquote>
 <p><code>将虚拟Dom对象渲染到页面上</code></p>
 <blockquote>
-<p>ReactDOM.render(<br>&nbsp; &nbsp; AppDom,<br>&nbsp; &nbsp; document.getElementById(‘root’)，<br>&nbsp; &nbsp; function(){<br>&nbsp; &nbsp; &nbsp; &nbsp; alert(‘成功渲染H2’)<br>&nbsp; &nbsp;}<br>)</p>
+<p>ReactDOM.render(<br>&nbsp; &nbsp; AppDom,<br>&nbsp; &nbsp; document.getElementById(‘root’)，<br>&nbsp; &nbsp; function(){<br>&nbsp; &nbsp; &nbsp; &nbsp; alert(‘成功渲染div’)<br>&nbsp; &nbsp;}<br>)</p>
 </blockquote>
 <p><code>创建组件</code></p>
 <blockquote>
@@ -80,7 +80,7 @@
     <published>2017-07-20T16:24:41.000Z</published>
     <updated>2017-07-22T05:02:05.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="aplayer1" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
 				element: document.getElementById("aplayer1"),
@@ -118,7 +118,7 @@
     <published>2017-07-20T15:24:41.000Z</published>
     <updated>2017-07-20T18:17:54.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
 				element: document.getElementById("aplayer0"),
@@ -156,7 +156,7 @@
     <published>2017-06-18T15:47:44.000Z</published>
     <updated>2017-07-23T07:28:22.000Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"> </script><script src="/assets/js/APlayer.min.js"> </script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><p>``` bash<br>$ hexo new “My New Post”<br>```</p>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><p>``` bash<br>$ hexo server<br>```</p>
