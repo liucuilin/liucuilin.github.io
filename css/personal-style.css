@@ -10,3 +10,4 @@
 .donation {margin-top: 50px; margin-bottom: 60px; }
 .article-content p{text-align: justify;}
 .article-content blockquote p{text-align: left; }
+.content.content-link .link-list .link-item a .avatar {border: 1px solid #dadada; }
