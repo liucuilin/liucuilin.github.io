@@ -16,8 +16,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
-    background: -webkit-linear-gradient(top, #222, #333);
-    background: linear-gradient(top, #222, #333);
+    background: dimgrey;
 }
 
 header{
@@ -59,7 +58,7 @@ footer span:last-child{
 }
 
 ol{
-    background: chocolate;
+    background: dimgrey;
     color: #fff;
     width: 100%;
     padding: 10px 40px;
