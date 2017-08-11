@@ -16,6 +16,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
+    background: -webkit-linear-gradient(top, #222, #333);
+    background: linear-gradient(top, #222, #333);
 }
 
 header{
@@ -57,7 +59,7 @@ footer span:last-child{
 }
 
 ol{
-    background: darkslategrey;
+    background: chocolate;
     color: #fff;
     width: 100%;
     padding: 10px 40px;
@@ -79,6 +81,7 @@ h5{
 #main{
     display: flex;
     justify-content: center;
+    width: 100%;
     align-items: center;
     flex-wrap: wrap;
     flex:1;
