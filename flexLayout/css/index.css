@@ -5,8 +5,7 @@
     padding: 0;
 }
 
-html,
-body {
+html{
     height: 100%;
 }
 
@@ -31,6 +30,9 @@ header{
     background: #fff;
     padding: 0 20px;
     align-self: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 footer{
@@ -42,6 +44,9 @@ footer{
     background: #fff;
     align-self: flex-end;
     order: 2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 footer span{
@@ -60,10 +65,13 @@ ol{
     width: 100%;
     padding: 10px 40px;
     font-size: 14px;
+    margin-top: 48px;
 }
 
 ol.olTwo{
     order: 1;
+    margin-top: 0px;
+    margin-bottom: 48px;
 }
 
 h5{
