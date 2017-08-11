@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">  
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header id="header" class="">
+        <span>Logo</span>
+        <span>Flex Layout</span>
+        <span>Menu</span>
+    </header>
+
+    <footer>
+        <span>NAV01</span>
+        <span>NAV02</span>
+        <span>NAV03</span>
+        <span>NAV04</span>
+    </footer>
+
+    <ol>
+        <h5>容器的属性</h5>
+        <li>flex-direction : 决定项目的排列方向.</li>
+        <li>flex-wrap : 决定项目是否可换行.</li>
+        <li>flex-flow : 前两个属性的合体，默认row nowrap.</li>
+        <li>justify-content : 决定项目在主轴的对齐方式.</li>
+        <li>align-items : 决定项目在交叉轴的对齐方式.</li>
+        <li>align-content : 决定项目在多条主轴上的对齐方式.</li>
+    </ol>
+
+    <ol class="olTwo">
+        <h5>项目的属性</h5>
+        <li>order : 决定项目的排列位置数值越大越靠后.</li>
+        <li>flex-grow : 决定项目的放大比例.</li>
+        <li>flex-shrink : 决定项目的缩小比例.</li>
+        <li>flex-basis : 决定项目的固定尺寸.</li>
+        <li>flex : 前三个属性的合体 默认 0 1 auto.</li>
+        <li>align-self : 决定单个项目的对齐方式.</li>
+    </ol>
+    
+    <div id="main">
+        <div class="first-face">
+            <span class="pip"></span>
+        </div>
+        <div class="second-face">
+            <span class="pip"></span>
+            <span class="pip"></span>
+        </div>
+        <div class="third-face">
+            <span class="pip"></span>
+            <span class="pip"></span>
+            <span class="pip"></span>
+        </div>
+        <div class="fourth-face">
+            <div class="column">
+                <span class="pip"></span>
+                <span class="pip"></span>
+            </div>
+            <div class="column">
+                <span class="pip"></span>
+                <span class="pip"></span>
+            </div>
+        </div>
+        <div class="fifth-face">
+            <div class="column">
+                <span class="pip"></span>
+                <span class="pip"></span>
+            </div>
+            <div class="column">
+                <span class="pip"></span>
+            </div>
+            <div class="column">
+                <span class="pip"></span>
+                <span class="pip"></span>
+            </div>
+        </div>
+        <div class="sixth-face">
+            <div class="column">
+                <span class="pip"></span>
+                <span class="pip"></span>
+                <span class="pip"></span>
+            </div>
+            <div class="column">
+                <span class="pip"></span>
+                <span class="pip"></span>
+                <span class="pip"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
